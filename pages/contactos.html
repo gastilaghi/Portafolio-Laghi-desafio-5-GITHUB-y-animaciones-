@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/img/logomix.png" type="image/x-icon">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">INICIO</a></li>
+            <li><a href="../pages/quien soy.html">QUIEN SOY</a></li>
+            <li><a href="../pages/servicios.html">SERVICIOS</a></li>
+            <li><a href="../pages/trabajos.html">TRABAJOS</a></li>
+            <li><a href="../pages/contactos.html">CONTACTOS</a></li>
+        </ul>
+       
+    </nav>
+    <header>
+        <h1>Contactos</h1>
+    </header>
+  
+    <main class="centrar blanco">
+        <form action="contactos.php" method="get">
+            <input type="text" Nombre="" id="nombre" placeholder="ingrese su nombre"> 
+            <input type="number" name="Dni" id="dni" placeholder="ingrese su dni"> 
+            <input type="email" name="mail" id="mail" placeholder="ingrese su mail">
+            <div class="centrarCoso">
+                <label for="servicio">Sonido</label>
+                <input type="radio" name="sonido" id="sonido" value="s" >
+                <label for="servicio">Grabación</label>
+                <input type="radio" name="grabacion" id="grabacion" value="g" >
+                <label for="servicio">Músico profesional</label>
+                <input type="radio" name="musico" id="musico" value="m" >
+            </div>
+
+            <select name="Consultas">
+                <option value="c">Consultas</option>
+                <option value="cl">Clases</option>
+                <option value="cv">CV</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetear">
+        </form>
+        <div class="centrarCoso">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52442.00716888448!2d-58.45486156666669!3d-34.76502683682435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd261abf8fb75%3A0xd3b4119f62723032!2sLomas%20de%20Zamora%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1653983076863!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+        
+    </main>
+    <aside>
+
+    </aside>
+    <footer>
+        <h5>©Gastón Laghi, todos los derechos reservados</h5>
+    </footer>
+</body>
+</html>

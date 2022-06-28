@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bebas+Neue&family=Roboto:wght@100;300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li{
+ 
+    text-decoration: none;
+}
+
+.centrarTexto{
+    text-decoration: none;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+nav{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    font-size: 0.5rem;
+    
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+nav ul li a{
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    font-family:'Amatic SC', cursive;
+}
+
+nav ul li a:hover{
+    color: yellow;
+}
+
+
+.fontBebas{
+    font-style: 'Bebas Neue', cursive;
+}
+.logo{
+    max-width: 300px;
+    max-height: 100px;
+}
+h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 15%;
+    font-style:'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 1px black;
+}
+
+.subtitulos{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-style:'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(../img/estudio2.png);
+    background-size: cover;
+    background-color: rgba(34, 29, 29, 0.9);
+    background-repeat: no-repeat;
+}
+.centrar{
+    display: grid;
+    justify-content: center;   
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    text-shadow: 30px;
+    overflow: hidden;
+    margin-top: 17%;
+}
+
+.blanco{
+    color: white;
+}
+
+p{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.centrarCoso{
+    margin-top: 20px;
+}
+
+.imagen20{
+    width: 40px;
+    height: 40px;
+}
+
+.logo{
+    text-align: left;
+    height: 200px;
+    width: 200px;
+}
+nav div img{
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 1rem 1rem;
+    display: flex;
+}
+.padreDiv{
+    display: grid;
+}
+.hijoDiv{
+    color: white;
+}
+@media only screen and (min-width:768px) {
+    nav{
+        display: flex;
+        justify-content: center;}
+}
+
+main div h5 {
+    display: grid;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 110%;
+}
+
+#maingrilla{
+    grid-area: mn
+}
+
+#headergrilla{
+    grid-area: hd
+}
+
+#footergrilla{
+    grid-area: foo;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4;
+    grid-template-areas: "hd" 
+                         "mn" 
+                         "dv" 
+                         "foo";
+
+}
+
+#divgrilla{
+    grid-area: dv;
+    text-align: center;
+    color: white;
+}
+
+@media only screen and (min-width: 1200px) {
+    .contenedor{
+    grid-template-columns: 70vw 30vw;
+    grid-template-rows: auto;
+    grid-template-areas: "hd hd" 
+                         "mn dv"  
+                         "foo foo";
+    }
+    #divgrilla {
+        justify-content: center;
+        display: flex;
+        align-items: flex-end;
+    }
+}
+
+
+
+
