@@ -50,8 +50,13 @@ nav ul li a:hover{
 .fontBebas{
     font-style: 'Bebas Neue', cursive;
 }
+
+.navbar{
+    justify-content: space-between;
+}
+
 .logo{
-    max-width: 300px;
+    max-width: 150px;
     max-height: 100px;
 }
 h1{
